@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <SwitchPreferenceCompat
+        app:key="pref_key_enable_feature"
+        app:title="機能を有効にする"
+        app:defaultValue="true" />
+
+    <EditTextPreference
+        app:key="pref_key_user_name"
+        app:title="ユーザー名"
+        app:dialogTitle="ユーザー名を入力してください" />
+
+    <!-- 他の Preference をここに追加 -->
+
+</PreferenceScreen>
